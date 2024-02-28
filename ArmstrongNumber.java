@@ -21,6 +21,7 @@ public class ArmstrongNumber {
         if (result == x) {
             System.out.println("Armstrong Number");
         } else System.out.println("Not an Armstrong Number");
+        scanner.close();
     }
     public static int cubeOfNumber(int number, int power) {
         return (int) Math.pow(number, power);
