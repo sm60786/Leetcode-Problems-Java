@@ -5,7 +5,7 @@ public class ZigzagConversion {
 	public String convert(String s, int numRows) {
 		int length = s.length();
         
-        if(numRows > length || numRows <= 1){
+        if (numRows > length || numRows <= 1) {
             return s;
         }
         
